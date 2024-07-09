@@ -7,7 +7,7 @@ export const categories = [
     "Astronomia e Geografia",
     "Climatologia, Meteorologia, Vegetação",
     "Geologia e Hidrografia"
-  ]
+]
   
 export function filterCategory(id) {
     return videos.filter( video => video.category === categories[id] )
